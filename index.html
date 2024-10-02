@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chess Board</title>
+</head>
+<body>
+    <div class="h1">
+        <h1>CHESS</h1>
+    </div>
+   
+    <div class="body">
+        <div class="row">
+            <div class="box" style="position:relative ;">&#9814 <label class="lab rook">Rook</label></div>
+            <div class="box black" style="position:relative;">&#9816 <label class="lab kni">Knight</label> </div>
+            <div class="box " style="position:relative;">&#9815 <label class="lab bis">Bishop</label></div>
+            <div class="box black" style="position:relative;">&#9813 <label class="lab que">Queen</label></div>
+            <div class="box" style="position:relative;">&#9812 <label class="lab kin">King</label></div>
+            <div class="box black" style="position:relative;">&#9815 <label class="lab bis">Bishop</label></div>
+            <div class="box" style="position:relative;">&#9816 <label class="lab kni">Knight</label></div>
+            <div class="box black" style="position:relative;">&#9814 <label class="lab rook">Rook</label></div>
+        </div>
+    
+        <div class="row">
+            <div class="box black" style="position:relative ;">&#9817 <label class="lab pawn">Pawn</label></div>
+            <div class="box" style="position:relative ;">&#9817 <label class="lab pawn">Pawn</label></div>
+            <div class="box black" style="position:relative ;">&#9817 <label class="lab pawn">Pawn</label></div>
+            <div class="box " style="position:relative ;">&#9817 <label class="lab pawn">Pawn</label></div>
+            <div class="box black" style="position:relative ;">&#9817 <label class="lab pawn">Pawn</label></div>
+            <div class="box" style="position:relative ;">&#9817 <label class="lab pawn">Pawn</label></div>
+            <div class="box black" style="position:relative ;">&#9817 <label class="lab pawn">Pawn</label></div>
+            <div class="box" style="position:relative ;">&#9817 <label class="lab pawn">Pawn</label></div>
+            
+        </div>
+    
+        <div class="row">
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box "></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+        </div>
+    
+        <div class="row">
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box "></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            
+        </div>
+    
+        <div class="row">
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box "></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+        </div>
+    
+        <div class="row">
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box "></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            <div class="box black"></div>
+            <div class="box"></div>
+            
+        </div>
+    
+        <div class="row">
+            <div class="box box1">&#9823</div>
+            <div class="box box1 black">&#9823</div>
+            <div class="box box1 ">&#9823</div>
+            <div class="box box1 black">&#9823</div>
+            <div class="box box1">&#9823</div>
+            <div class="box box1 black">&#9823</div>
+            <div class="box box1">&#9823</div>
+            <div class="box box1 black">&#9823</div>
+        </div>
+    
+        <div class="row">
+            <div class="box box1 black">&#9820</div>
+            <div class="box box1">&#9822</div>
+            <div class="box box1 black">&#9821</div>
+            <div class="box box1">&#9818</div>
+            <div class="box box1 black">&#9819</div>
+            <div class="box box1">&#9821</div>
+            <div class="box box1 black">&#9822</div>
+            <div class="box box1">&#9820</div>
+            
+        </div>
+    </div>
+    
+</body>
+
+<style>
+
+html{
+    background-color: rgb(162, 160, 158);
+}
+
+
+h1{
+    font-size:100px;
+    text-align: center;
+    font-weight: bold;
+    /* font-size: 350%!important; */
+    height: 110px;
+    width: 800px;
+    background-image: url(./OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: transparent;
+    background-clip: text;
+    margin:auto;
+}
+
+.body{
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    margin: 5% auto;
+    /* overflow: hidden X ; */
+   
+}
+
+.row{
+    width: 100%;
+    height: 100px;
+    /* float: left; */
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    float: right;
+    font-size: 70px;
+    text-align: center;
+    color: #424242;
+}
+
+
+.box:hover{
+    cursor: pointer;
+    .lab{
+        display: inline-block;
+    }
+}
+.box1{
+    /* color: #FF9C2A; */
+}
+.black{
+    background-color: #F4F4F4;
+}
+
+.lab{
+    font-size: 25px;
+    position: absolute;
+    top: 80px;
+    left: 17px;
+    color:#424242;
+    display: none;
+    /* background-color: #424242; */
+}
+
+.rook{
+    left:24px ;
+}
+
+.kin{
+    left: 25px;
+}
+
+.pawn{
+    left: 23px;
+}
+</style>
+</html>
